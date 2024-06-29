@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WEB PAGE</title>
+  <style>
+     
+body{
+  margin:0;
+  padding:0;
+}
+#top-nav{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  top:0;
+  left:0;
+  background-color:white;
+  box-shadow:0px 2px 5px black;
+}
+#top-nav a{
+   color: grey;
+   font-size:20px;
+   display:inline-block;
+   padding:6px;
+   margin:13px;
+   text-decoration:none;
+   letter spacing:3px;
+}
+#top-nav-right{
+  float: right;
+  margin-right: 10px;
+}
+#home-section{
+  position:relative;
+  margin:50px;
+}
+#home-section p{
+  position: absolute;
+  bottom:10px;
+  left:20px;
+  font-size:25px;
+  color:grey;
+}
+#section-container{
+  width: 70%;
+  margin: auto;
+  }
+#img-container{
+  width:49%;
+  float:left;
+  padding: 10px 20px;
+  box-sizing:border-box;
+}
+#text-container{
+  width:49%;
+  float:left;
+  padding:10px 20px;
+  box-sizing:border-box;
+}
+#about-section{
+  font-size:2opx
+}
+#about-section::after{
+  content:" ";
+  display: table;
+  clear: both;
+}
+#about-section{
+  margin-bottom:50px;
+  padding-top:70px;
+}
+#text-container p{
+  letter=spacing:5px;
+}
+#menu-section{
+  padding-top:70px;
+}
+#menu-section::after{
+  content:" ";
+  display: table;
+  clear: both;
+}
+#text-container2{
+  width: 49%;
+  float: left;
+  box-sizing:border-box;
+  padding:10px 20px;
+}
+#img-container2{
+  width: 49%;
+  float:left;
+  font-size:15px;
+}
+#contact-section{
+  width:100%;
+  font-size:15px;
+  padding:15px;
+  margin-bottom:10px;
+}
+button{
+  font-size:15px;
+  padding:10px 20px;
+}
+#footer{
+  padding:40px;
+  background-color:skyblue;
+  text-align:center;
+  font-size:10px;
+}
+  </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+    <div id="top-nav">
+      <a href="#home-section">Gourmet au catering</a>
+      <div id="top-nav-right">
+        <a href="#about-section">About</a>
+        <a href="#menu-section">Menu</a>
+        <a href="#contact-section">Contact</a>
+      </div>
+    </div>
+    <div id="home-section">
+      <img src="https://www.w3schools.com/w3images/hamburger.jpg" width=100%>
+      <p>
+        Le Catering
+      </p>
+    </div>
+    <div id="section-container">
+      <div id="about-section">
+        <div id="img-container">
+          <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width=100%>
+        </div>
+        <div id="text-container">
+          <h1 style="text-align:center">
+            About Catering
+          </h1>
+          <p>
+            <center>
+            Tradition since 1889
+            </center>
+          </p>
+          <p>
+            The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+          </p>
+          <p style="color:grey">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+          </p>
+        </div>
+      </div>
+        <div id="menu-section">
+          <div id="text-container2">
+            <h1>
+              Over Menu
+            </h1>
+            <h3>
+              Bread Basket
+            </h3>
+            <p>
+              Assortment of fresh baked fruit breads and muffins 5.50
+            </p>
+            <h3>
+              Honey Almond Granola with Fruits
+            </h3>
+            <p>
+              Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+            </p>
+            <h3>
+              Belgian Waffle
+            </h3>
+            <p>
+              Vanilla flavored batter with malted flour 7.50
+            </p>
+            <h3>
+              Scrambled eggs
+            </h3>
+            <p>
+              Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+            </p>
+            <h3>
+              Blueberry Pancakes
+            </h3>
+            <p>
+              With syrup, butter and lots of berries 8.50
+            </p>
+          </div>
+          <div id="img-container2">
+          <img src="https://www.w3schools.com/w3images/tablesetting.jpg">
+          </div>
+          <hr>
+          <div id="contact-section">
+            <h1>
+              Contact
+            </h1>
+            <p>
+              We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.
+            </p>
+            <p>
+              <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
+            </p>
+            <p>
+              You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
+            </p>
+            <form action="">
+              <input type="text" placeholder="Name"><br>
+              <br>
+              <input type="text" placeholder="How many people"><br>
+              <br>
+              <input type="text"><br>
+              <br>
+              <input type="text" placeholder="Message\Special Requirements"><br>
+              <br>
+              <button>
+                SEND MESSAGE
+              </button><br>
+            </form>
+          </div>
+        </div>
+        <div id="footer">
+          <h3>
+          Presented By NAGA LAVANYA NIDAMANURI
+          </h3>
+      </div>
+  </body>
+</html>
